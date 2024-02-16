@@ -26,7 +26,7 @@ const generate = async (queryDescription) => {
 
     }
 
-    return await davinci(queryDescription)
+    return await chatgptapi(queryDescription)
 
     
 }
